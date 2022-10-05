@@ -108,12 +108,20 @@
 
 // Buggy Code (Part 4)
 
-function greeting(name) {
-    if(name == "Mubashir") {
-      return "Hello, my Love!";
-    } else {
-        return "Hello, " + name + "!";
-    }
-  }
+// function greeting(name) {
+//     if(name == "Mubashir") {
+//       return "Hello, my Love!";
+//     } else {
+//         return "Hello, " + name + "!";
+//     }
+//   }
 
-  console.log(greeting("Matt"))
+//   console.log(greeting("Matt"))
+
+// Using Arrow Functions
+
+arrowFunc = (x) => {
+    return x
+}
+
+console.log(arrowFunc(true))
