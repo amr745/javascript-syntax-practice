@@ -80,12 +80,20 @@
 
 // Profitable Gamble
 
-function profitableGamble(prob, prize, pay) {
-    if (prob * prize > pay) {
-        return true
-    } else {
-        return false
-    }
+// function profitableGamble(prob, prize, pay) {
+//     if (prob * prize > pay) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(profitableGamble(0.9, 1, 2))
+
+// Fix the Expression
+
+function isSeven(x) {
+	return x=="7"?true:false;
 }
 
-console.log(profitableGamble(0.9, 1, 2))
+console.log(isSeven(7))
