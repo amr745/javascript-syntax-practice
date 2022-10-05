@@ -72,8 +72,20 @@
 
 // Sum of Polygon Angles
 
-function sumPolygon(n) {
-	return  (n - 2) * 180
+// function sumPolygon(n) {
+// 	return  (n - 2) * 180
+// }
+
+// console.log(sumPolygon(6))
+
+// Profitable Gamble
+
+function profitableGamble(prob, prize, pay) {
+    if (prob * prize > pay) {
+        return true
+    } else {
+        return false
+    }
 }
 
-console.log(sumPolygon(6))
+console.log(profitableGamble(0.9, 1, 2))
