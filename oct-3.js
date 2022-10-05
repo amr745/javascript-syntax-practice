@@ -92,8 +92,16 @@
 
 // Fix the Expression
 
-function isSeven(x) {
-	return x=="7"?true:false;
+// function isSeven(x) {
+// 	return x=="7"?true:false;
+// }
+
+// console.log(isSeven(7))
+
+// Convert Hours into Seconds
+
+function howManySeconds(hours) {
+	return hours * 3600
 }
 
-console.log(isSeven(7))
+console.log(howManySeconds(24))
