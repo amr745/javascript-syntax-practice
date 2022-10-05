@@ -100,8 +100,20 @@
 
 // Convert Hours into Seconds
 
-function howManySeconds(hours) {
-	return hours * 3600
-}
+// function howManySeconds(hours) {
+// 	return hours * 3600
+// }
 
-console.log(howManySeconds(24))
+// console.log(howManySeconds(24))
+
+// Buggy Code (Part 4)
+
+function greeting(name) {
+    if(name == "Mubashir") {
+      return "Hello, my Love!";
+    } else {
+        return "Hello, " + name + "!";
+    }
+  }
+
+  console.log(greeting("Matt"))
