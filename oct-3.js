@@ -3,25 +3,29 @@
 // }
 // return calcAge(15)
 
+
+
 // function and(a, b) {
-// 	return a < 10 && b > 1
+//     if (a && b === true) {
+//         return true
+//     } else {
+//         return false
+//     }
+
 // }
 
-// console.log(and(5, 10))
-// console.log(and(5, 0))
-// console.log(and(12, 10))
-// console.log(and(12, 0))
+// console.log(and(true, true))
+// console.log(and(false, true))
+// console.log(and(true, false))
+// console.log(and(false, false))
 
-function and(a, b) {
-    if (a && b === true) {
-        return true
-    } else {
-        return false
-    }
 
+//The Farm Problem
+
+function animals(chickens, cows, pigs) {
+	return (chickens * 2) + (cows * 4) + (pigs * 4)
 }
 
-console.log(and(true, true))
-console.log(and(false, true))
-console.log(and(true, false))
-console.log(and(false, false))
+console.log(animals(2, 3, 5))
+console.log(animals(1, 2, 3))
+console.log(animals(5, 2, 8))
