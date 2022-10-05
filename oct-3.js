@@ -44,8 +44,16 @@
 
 // Return the First Element in an Array
 
-function getFirstValue(arr) {
-	return arr[0]
+// function getFirstValue(arr) {
+// 	return arr[0]
+// }
+
+// console.log(getFirstValue([1, 2, 3]))
+
+// Convert Hours and Minutes into Seconds
+
+function convert(hours, minutes) {
+	return (hours * 3600) + (minutes * 60)
 }
 
-console.log(getFirstValue([1, 2, 3]))
+console.log(convert(1, 3))
