@@ -52,8 +52,20 @@
 
 // Convert Hours and Minutes into Seconds
 
-function convert(hours, minutes) {
-	return (hours * 3600) + (minutes * 60)
+// function convert(hours, minutes) {
+// 	return (hours * 3600) + (minutes * 60)
+// }
+
+// console.log(convert(1, 3))
+
+// Equality Check
+
+function checkEquality(a, b) {
+  if ( a === b) {
+    return true
+  } else {
+    return false
+  }
 }
 
-console.log(convert(1, 3))
+console.log(checkEquality(1, 1))
