@@ -22,10 +22,22 @@
 
 //The Farm Problem
 
-function animals(chickens, cows, pigs) {
-	return (chickens * 2) + (cows * 4) + (pigs * 4)
+// function animals(chickens, cows, pigs) {
+// 	return (chickens * 2) + (cows * 4) + (pigs * 4)
+// }
+
+// console.log(animals(2, 3, 5))
+// console.log(animals(1, 2, 3))
+// console.log(animals(5, 2, 8))
+
+// Are the Numbers Equal?
+
+function isSameNum(num1, num2) {
+	if(num1 === num2) {
+        return true
+    } else {
+        return false
+    }
 }
 
-console.log(animals(2, 3, 5))
-console.log(animals(1, 2, 3))
-console.log(animals(5, 2, 8))
+console.log(isSameNum(1, 1))
