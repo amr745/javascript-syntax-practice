@@ -60,12 +60,20 @@
 
 // Equality Check
 
-function checkEquality(a, b) {
-  if ( a === b) {
-    return true
-  } else {
-    return false
-  }
+// function checkEquality(a, b) {
+//   if ( a === b) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+
+// console.log(checkEquality(1, 1))
+
+// Sum of Polygon Angles
+
+function sumPolygon(n) {
+	return  (n - 2) * 180
 }
 
-console.log(checkEquality(1, 1))
+console.log(sumPolygon(6))
