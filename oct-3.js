@@ -32,12 +32,20 @@
 
 // Are the Numbers Equal?
 
-function isSameNum(num1, num2) {
-	if(num1 === num2) {
-        return true
-    } else {
-        return false
-    }
+// function isSameNum(num1, num2) {
+// 	if(num1 === num2) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(isSameNum(1, 1))
+
+// Return the First Element in an Array
+
+function getFirstValue(arr) {
+	return arr[0]
 }
 
-console.log(isSameNum(1, 1))
+console.log(getFirstValue([1, 2, 3]))
