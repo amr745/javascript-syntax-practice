@@ -120,8 +120,10 @@
 
 // Using Arrow Functions
 
-arrowFunc = (x) => {
-    return x
-}
+// arrowFunc = (x) => {
+//     return x
+// }
 
-console.log(arrowFunc(true))
+// console.log(arrowFunc(true))
+
+// 
