@@ -126,4 +126,14 @@
 
 // console.log(arrowFunc(true))
 
-// 
+// Let's Fuel Up!
+
+function calculateFuel(n) {
+    const fuel = n * 10
+    if (fuel > 100) {
+        return fuel
+    } else {
+        return 100
+    }
+}
+console.log(calculateFuel(15))
