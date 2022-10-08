@@ -148,8 +148,16 @@
 
 //Boolean to String Conversion
 
-function boolToString(flag) {
-	return flag.toString()
+// function boolToString(flag) {
+// 	return flag.toString()
+// }
+
+// console.log(boolToString(9*9))
+
+// Miserable Parody of a Calculator
+
+function calculator(str) {
+	return eval(str)
 }
 
-console.log(boolToString(9*9))
+console.log(calculator("13+2-5*2"))
