@@ -211,8 +211,16 @@
 
 //Check if an Integer is Divisible By Five
 
-function divisibleByFive(n) {
-	return n % 5 === 0
+// function divisibleByFive(n) {
+// 	return n % 5 === 0
+// }
+
+// console.log(divisibleByFive(37))
+
+//Multiple of 100
+
+function divisible(num) {
+	return num % 100 === 0
 }
 
-console.log(divisibleByFive(37))
+console.log(divisible(100))
