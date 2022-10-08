@@ -164,12 +164,39 @@
 
 //Two Makes Ten
 
-function makesTen(a, b) {
-	if (a === 10 || b === 10 || a + b === 10) {
-        return true
-    } else {
-        return false
-    }
-}
+// function makesTen(a, b) {
+// 	if (a === 10 || b === 10 || a + b === 10) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
 
-console.log(makesTen(1, 9))
+// console.log(makesTen(1, 9))
+
+// function makesTen(a, b) {
+//     arr = [a, b, a + b ]
+// 	return arr.includes(10)
+// }
+
+// console.log(makesTen(9, 9))
+
+// function makesTen(a, b) {
+//     return a === 10 || b === 10 || a + b === 10
+// }
+
+// console.log(makesTen(9, 10))
+
+//Buggy Code (Part 5)
+
+function printArray(number) {
+    var newArray = [];
+  
+    for(var i = 1; i <= number; i++) {
+      newArray.push(i);
+    }
+  
+    return newArray;
+  }
+
+  console.log(printArray(6))
