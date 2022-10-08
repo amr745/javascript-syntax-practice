@@ -156,8 +156,20 @@
 
 // Miserable Parody of a Calculator
 
-function calculator(str) {
-	return eval(str)
+// function calculator(str) {
+// 	return eval(str)
+// }
+
+// console.log(calculator("13+2-5*2"))
+
+//Two Makes Ten
+
+function makesTen(a, b) {
+	if (a === 10 || b === 10 || a + b === 10) {
+        return true
+    } else {
+        return false
+    }
 }
 
-console.log(calculator("13+2-5*2"))
+console.log(makesTen(1, 9))
