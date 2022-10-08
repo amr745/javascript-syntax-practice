@@ -140,8 +140,16 @@
 
 // Football Points
 
-function footballPoints(wins, draws, losses) {
-    return (wins * 3) + (draws * 1) + (losses * 0)
+// function footballPoints(wins, draws, losses) {
+//     return (wins * 3) + (draws * 1) + (losses * 0)
+// }
+
+// console.log(footballPoints(0, 0, 1))
+
+//Boolean to String Conversion
+
+function boolToString(flag) {
+	return flag.toString()
 }
 
-console.log(footballPoints(0, 0, 1))
+console.log(boolToString(9*9))
