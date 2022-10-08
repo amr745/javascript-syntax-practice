@@ -128,12 +128,20 @@
 
 // Let's Fuel Up!
 
-function calculateFuel(n) {
-    const fuel = n * 10
-    if (fuel > 100) {
-        return fuel
-    } else {
-        return 100
-    }
+// function calculateFuel(n) {
+//     const fuel = n * 10
+//     if (fuel > 100) {
+//         return fuel
+//     } else {
+//         return 100
+//     }
+// }
+// console.log(calculateFuel(15))
+
+// Football Points
+
+function footballPoints(wins, draws, losses) {
+    return (wins * 3) + (draws * 1) + (losses * 0)
 }
-console.log(calculateFuel(15))
+
+console.log(footballPoints(0, 0, 1))
