@@ -189,14 +189,22 @@
 
 //Buggy Code (Part 5)
 
-function printArray(number) {
-    var newArray = [];
+// function printArray(number) {
+//     var newArray = [];
   
-    for(var i = 1; i <= number; i++) {
-      newArray.push(i);
-    }
+//     for(var i = 1; i <= number; i++) {
+//       newArray.push(i);
+//     }
   
-    return newArray;
-  }
+//     return newArray;
+//   }
 
-  console.log(printArray(6))
+//   console.log(printArray(6))
+
+//Frames Per Second
+
+function frames(minutes, fps) {
+	return (minutes * (fps * 60))
+}
+
+console.log(frames(10, 25))
