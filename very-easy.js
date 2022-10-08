@@ -203,8 +203,16 @@
 
 //Frames Per Second
 
-function frames(minutes, fps) {
-	return (minutes * (fps * 60))
+// function frames(minutes, fps) {
+// 	return (minutes * (fps * 60))
+// }
+
+// console.log(frames(10, 25))
+
+//Check if an Integer is Divisible By Five
+
+function divisibleByFive(n) {
+	return n % 5 === 0
 }
 
-console.log(frames(10, 25))
+console.log(divisibleByFive(37))
