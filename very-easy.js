@@ -244,8 +244,11 @@
 
 //Compare Strings by Count of Characters
 
-function comp(str1, str2) {
-	return (str1.length === str2.length)
-}
+// function comp(str1, str2) {
+// 	return (str1.length === str2.length)
+// }
 
-console.log(comp("hello", "edabit"))
+// console.log(comp("hello", "edabit"))
+
+
+
