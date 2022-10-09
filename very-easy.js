@@ -276,14 +276,34 @@
 
 // Movie Theatre Admittance
 
-function acceptIntoMovie(age, isSupervised) {
-	if ( age >= 15) {
-        return true
-    } if (age < 15 && isSupervised === true) {
-        return true
-    } else {
-        return false
-    }
+// function acceptIntoMovie(age, isSupervised) {
+// 	// if ( age >= 15) {
+//     //     return true
+//     // } if (age < 15 && isSupervised === true) {
+//     //     return true
+//     // } else {
+//     //     return false
+//     // }
+
+//     if (age >= 15 || age < 15 && isSupervised === true) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(acceptIntoMovie(12, true))
+
+//Area of a Rectangle
+
+function area(h, w) {
+	// if (h && w > 0) {
+    //     return h * w
+    // } else {
+    //     return -1
+    // }
+
+    return h && w > 0 ? h * w : -1
 }
 
-console.log(acceptIntoMovie(16, false))
+console.log(area(11, 0))
