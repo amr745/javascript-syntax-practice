@@ -252,16 +252,24 @@
 
 // How Many D's Are There?
 
-function countDs(sentence) {
-	// make sentenct lower case
-    // match the d's
-    // count the d's
+// function countDs(sentence) {
+// 	// make sentenct lower case
+//     // match the d's
+//     // count the d's
 
-    // let lower = sentence.toLowerCase()
-    // let letter = lower.match(/d/g)
-    // return letter.length
+//     // let lower = sentence.toLowerCase()
+//     // let letter = lower.match(/d/g)
+//     // return letter.length
 
-    return sentence.match(/d/g).length
+//     return sentence.match(/d/g).length
+// }
+
+// console.log(countDs("The rodents hibernated in their den."))
+
+//Return the Next Number from the Integer Passed
+
+function addition(num) {
+	return ++num
 }
 
-console.log(countDs("The rodents hibernated in their den."))
+console.log(addition(-3))
