@@ -219,8 +219,17 @@
 
 //Multiple of 100
 
-function divisible(num) {
-	return num % 100 === 0
+// function divisible(num) {
+// 	// return num % 100 === 0
+//     return !(num % 300)
+// }
+
+// console.log(divisible(600))
+
+// Divides Evenly
+
+function dividesEvenly(a, b) {
+	return !(a % b)
 }
 
-console.log(divisible(100))
+console.log(dividesEvenly(85, 4))
