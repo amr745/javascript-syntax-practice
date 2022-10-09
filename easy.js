@@ -9,8 +9,16 @@
 
 // Return a String as an Integer
 
-function stringInt(str) {
-	return parseInt(str)
+// function stringInt(str) {
+// 	return parseInt(str)
+// }
+
+// console.log(stringInt("6"))
+
+//Sort an Array by String Length
+
+function sortByLength(arr) {
+	return arr.sort((a, b) => a.length - b.length)
 }
 
-console.log(stringInt("6"))
+console.log(sortByLength(["Google", "Apple", "Microsoft"]))
