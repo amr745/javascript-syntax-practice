@@ -236,8 +236,16 @@
 
 // Pair Management
 
-function makePair(num1, num2) {
-	return [num1, num2]
+// function makePair(num1, num2) {
+// 	return [num1, num2]
+// }
+
+// console.log(makePair(1, 2))
+
+//Compare Strings by Count of Characters
+
+function comp(str1, str2) {
+	return (str1.length === str2.length)
 }
 
-console.log(makePair(1, 2))
+console.log(comp("hello", "edabit"))
