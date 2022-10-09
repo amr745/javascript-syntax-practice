@@ -228,8 +228,16 @@
 
 // Divides Evenly
 
-function dividesEvenly(a, b) {
-	return !(a % b)
+// function dividesEvenly(a, b) {
+// 	return !(a % b)
+// }
+
+// console.log(dividesEvenly(85, 4))
+
+// Pair Management
+
+function makePair(num1, num2) {
+	return [num1, num2]
 }
 
-console.log(dividesEvenly(85, 4))
+console.log(makePair(1, 2))
