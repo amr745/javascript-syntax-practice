@@ -268,8 +268,22 @@
 
 //Return the Next Number from the Integer Passed
 
-function addition(num) {
-	return ++num
+// function addition(num) {
+// 	return ++num
+// }
+
+// console.log(addition(-3))
+
+// Movie Theatre Admittance
+
+function acceptIntoMovie(age, isSupervised) {
+	if ( age >= 15) {
+        return true
+    } if (age < 15 && isSupervised === true) {
+        return true
+    } else {
+        return false
+    }
 }
 
-console.log(addition(-3))
+console.log(acceptIntoMovie(16, false))
