@@ -359,8 +359,16 @@
 
 //Minimal I: If Boolean Then Boolean
 
-function isEven(n) {
-	return n % 2 === 0
+// function isEven(n) {
+// 	return n % 2 === 0
+// }
+
+// console.log(isEven(14))
+
+//Learn Lodash: _.drop, Drop the First Elements of an Array
+
+function drop(arr, val = 1) {
+    return arr.slice(val)
 }
 
-console.log(isEven(14))
+console.log(drop([1, 2, 3], 0))
