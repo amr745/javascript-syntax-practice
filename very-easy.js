@@ -310,8 +310,20 @@
 
 // Basketball Points
 
-function points(twoPointers, threePointers) {
-	return (twoPointers * 2) + (threePointers * 3)
+// function points(twoPointers, threePointers) {
+// 	return (twoPointers * 2) + (threePointers * 3)
+// }
+
+// console.log(points(15, 3))
+
+// Is the String Empty?
+
+function isEmpty(s) {
+	if (s === "") {
+        return true
+    } else {
+        return false
+    }
 }
 
-console.log(points(15, 3))
+console.log(isEmpty("stuff"))
