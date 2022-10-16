@@ -347,12 +347,20 @@
 // console.log(nameString("Mubashir"))
 
 //Buggy Code (Part 2)
-function maxNum(n1, n2) {
-	if (n1 < n2) {
-	  return n2
-	} else {
-	return n1
-  }
+// function maxNum(n1, n2) {
+// 	if (n1 < n2) {
+// 	  return n2
+// 	} else {
+// 	return n1
+//   }
+// }
+
+// console.log(maxNum(1000, 400))
+
+//Minimal I: If Boolean Then Boolean
+
+function isEven(n) {
+	return n % 2 === 0
 }
 
-console.log(maxNum(1000, 400))
+console.log(isEven(14))
