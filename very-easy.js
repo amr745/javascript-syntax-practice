@@ -318,12 +318,20 @@
 
 // Is the String Empty?
 
-function isEmpty(s) {
-	if (s === "") {
-        return true
-    } else {
-        return false
-    }
+// function isEmpty(s) {
+// 	if (s === "") {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// console.log(isEmpty("stuff"))
+
+// Solve the Equation
+
+function equation(s) {
+	return eval(s)
 }
 
-console.log(isEmpty("stuff"))
+console.log(equation("1+1+1+1+1"))
