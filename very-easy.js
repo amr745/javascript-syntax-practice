@@ -330,8 +330,18 @@
 
 // Solve the Equation
 
-function equation(s) {
-	return eval(s)
+// function equation(s) {
+// 	return eval(s)
+// }
+
+// console.log(equation("1+1+1+1+1"))
+
+//Basic Variable Assignment
+
+function nameString(name){
+	var b = "Edabit"
+	var result = name + b
+  	return result
 }
 
-console.log(equation("1+1+1+1+1"))
+console.log(nameString("Mubashir"))
