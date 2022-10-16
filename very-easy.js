@@ -338,10 +338,21 @@
 
 //Basic Variable Assignment
 
-function nameString(name){
-	var b = "Edabit"
-	var result = name + b
-  	return result
+// function nameString(name){
+// 	var b = "Edabit"
+// 	var result = name + b
+//   	return result
+// }
+
+// console.log(nameString("Mubashir"))
+
+//Buggy Code (Part 2)
+function maxNum(n1, n2) {
+	if (n1 < n2) {
+	  return n2
+	} else {
+	return n1
+  }
 }
 
-console.log(nameString("Mubashir"))
+console.log(maxNum(1000, 400))
