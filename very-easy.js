@@ -296,14 +296,22 @@
 
 //Area of a Rectangle
 
-function area(h, w) {
-	// if (h && w > 0) {
-    //     return h * w
-    // } else {
-    //     return -1
-    // }
+// function area(h, w) {
+// 	// if (h && w > 0) {
+//     //     return h * w
+//     // } else {
+//     //     return -1
+//     // }
 
-    return h && w > 0 ? h * w : -1
+//     return h && w > 0 ? h * w : -1
+// }
+
+// console.log(area(11, 0))
+
+// Basketball Points
+
+function points(twoPointers, threePointers) {
+	return (twoPointers * 2) + (threePointers * 3)
 }
 
-console.log(area(11, 0))
+console.log(points(15, 3))
