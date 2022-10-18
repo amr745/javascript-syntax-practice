@@ -367,8 +367,16 @@
 
 //Learn Lodash: _.drop, Drop the First Elements of an Array
 
-function drop(arr, val = 1) {
-    return arr.slice(val)
+// function drop(arr, val = 1) {
+//     return arr.slice(val)
+// }
+
+// console.log(drop([1, 2, 3], 0))
+
+//Drinks Allowed?
+
+function shouldServeDrinks(age, onBreak) {
+    return age >= 18 && !onBreak
 }
 
-console.log(drop([1, 2, 3], 0))
+console.log(shouldServeDrinks(17, true))
