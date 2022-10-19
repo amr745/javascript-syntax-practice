@@ -1,3 +1,11 @@
+// Concatenate First and Last Name into One String
+
+function concatName(firstName, lastName) {
+	return lastName+"," + " " + firstName
+}
+
+console.log(concatName("Ashley", "Richard"))
+
 // function calcAge(age) {
 // 	age * 365
 // }
@@ -375,8 +383,8 @@
 
 //Drinks Allowed?
 
-function shouldServeDrinks(age, onBreak) {
-    return age >= 18 && !onBreak
-}
+// function shouldServeDrinks(age, onBreak) {
+//     return age >= 18 && !onBreak
+// }
 
-console.log(shouldServeDrinks(17, true))
+// console.log(shouldServeDrinks(17, true))
