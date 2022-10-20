@@ -1,12 +1,27 @@
+//Sum of Multiplication
 
-// Return Negative
+//loop through ten=10
+//add num to each number ten=10
+//multiply each ten=10
 
-function returnNegative(n) {
-	return Math.min(n,-n)
+function multiSum(num, ten=10) {
+    let sum = 0
+	for (let i = 0; i < ten; i++) {
+        sum += parseInt(num * i + num)
+    }   
+    return sum
 }
 
+console.log(multiSum(2))
 
-console.log(returnNegative(-4))
+// // Return Negative
+
+// function returnNegative(n) {
+// 	return Math.min(n,-n)
+// }
+
+
+// console.log(returnNegative(-4))
 
 // Bitwise Operations
 
