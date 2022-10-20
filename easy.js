@@ -1,18 +1,28 @@
+
+// Return Negative
+
+function returnNegative(n) {
+	return Math.min(n,-n)
+}
+
+
+console.log(returnNegative(-4))
+
 // Bitwise Operations
 
-function bitwiseAND(n1, n2) {
-	return n1 & n2
-}
+// function bitwiseAND(n1, n2) {
+// 	return n1 & n2
+// }
 
-function bitwiseOR(n1, n2) {
-	return n1 | n2
-}
+// function bitwiseOR(n1, n2) {
+// 	return n1 | n2
+// }
 
-function bitwiseXOR(n1, n2) {
-	return n1 ^ n2
-}
+// function bitwiseXOR(n1, n2) {
+// 	return n1 ^ n2
+// }
 
-console.log(bitwiseXOR(7, 12))
+// console.log(bitwiseXOR(7, 12))
 
 
 // Add up the Numbers from a Single Number
