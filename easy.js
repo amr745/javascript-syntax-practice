@@ -1,3 +1,20 @@
+// Bitwise Operations
+
+function bitwiseAND(n1, n2) {
+	return n1 & n2
+}
+
+function bitwiseOR(n1, n2) {
+	return n1 | n2
+}
+
+function bitwiseXOR(n1, n2) {
+	return n1 ^ n2
+}
+
+console.log(bitwiseXOR(7, 12))
+
+
 // Add up the Numbers from a Single Number
 
 // function addUp(num) {
@@ -17,8 +34,8 @@
 
 //Sort an Array by String Length
 
-function sortByLength(arr) {
-	return arr.sort((a, b) => a.length - b.length)
-}
+// function sortByLength(arr) {
+// 	return arr.sort((a, b) => a.length - b.length)
+// }
 
-console.log(sortByLength(["Google", "Apple", "Microsoft"]))
+// console.log(sortByLength(["Google", "Apple", "Microsoft"]))

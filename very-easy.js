@@ -1,10 +1,13 @@
+
+
+
 // Concatenate First and Last Name into One String
 
-function concatName(firstName, lastName) {
-	return lastName+"," + " " + firstName
-}
+// function concatName(firstName, lastName) {
+// 	return lastName + ", " + firstName
+// }
 
-console.log(concatName("Ashley", "Richard"))
+// console.log(concatName("Ashley", "Richard"))
 
 // function calcAge(age) {
 // 	age * 365
