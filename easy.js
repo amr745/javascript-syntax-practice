@@ -1,11 +1,19 @@
-//Matchstick Houses
+//Reverse an Array
 
-function matchHouses(step) {
-    return step > 0 ? 6 + (step - 1) * 5 : 0
+function reverse(arr) {
+	return arr.reverse()
 }
 
-console.log(matchHouses(87))
+console.log(reverse([]))
 
+
+//Matchstick Houses
+
+// function matchHouses(step) {
+//     return step > 0 ? 6 + (step - 1) * 5 : 0
+// }
+
+// console.log(matchHouses(87))
 
 //Sum of Multiplication
 
