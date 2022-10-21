@@ -1,18 +1,27 @@
+//Matchstick Houses
+
+function matchHouses(step) {
+    return step > 0 ? 6 + (step - 1) * 5 : 0
+}
+
+console.log(matchHouses(87))
+
+
 //Sum of Multiplication
 
 //loop through ten=10
 //add num to each number ten=10
 //multiply each ten=10
 
-function multiSum(num, ten=10) {
-    let sum = 0
-	for (let i = 0; i < ten; i++) {
-        sum += parseInt(num * i + num)
-    }   
-    return sum
-}
+// function multiSum(num, ten=10) {
+//     let sum = 0
+// 	for (let i = 0; i < ten; i++) {
+//         sum += parseInt(num * i + num)
+//     }   
+//     return sum
+// }
 
-console.log(multiSum(2))
+// console.log(multiSum(2))
 
 // // Return Negative
 
