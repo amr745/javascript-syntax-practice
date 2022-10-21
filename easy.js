@@ -1,11 +1,19 @@
-//Reverse an Array
+//Left Shift by Powers of Two
 
-function reverse(arr) {
-	return arr.reverse()
+function shiftToLeft(x, y) {
+	return x * Math.pow(2, y)
 }
 
-console.log(reverse([]))
+console.log(shiftToLeft(46, 6))
 
+
+//Reverse an Array
+
+// function reverse(arr) {
+// 	return arr.reverse()
+// }
+
+// console.log(reverse([]))
 
 //Matchstick Houses
 
