@@ -1,10 +1,26 @@
+//7. Arrow Functions
+
+add2 = (x) => x + 2
+
+add3 = (x) => x + 3
+
+add5 = (x) => x + 5
+
+add7 = (x) => x + 7
+
+add11 = (x) => x + 11
+
+console.log(add5(2))
+
+
 //6. Recursion: Length of a String
 
-function length(str) {
-	return str.length
-}
+// function length(str) {
+//     if(str === "") return 0;
+// 	return length(str.substr(1)) + 1;
+// }
 
-console.log(length("apple"))
+// console.log(length("apple"))
 
 
 //5. ES6: Destructuring Arrays I
