@@ -1,11 +1,10 @@
 //Left Shift by Powers of Two
 
-function shiftToLeft(x, y) {
-	return x * Math.pow(2, y)
-}
+// function shiftToLeft(x, y) {
+// 	return x * Math.pow(2, y)
+// }
 
-console.log(shiftToLeft(46, 6))
-
+// console.log(shiftToLeft(46, 6))
 
 //Reverse an Array
 
