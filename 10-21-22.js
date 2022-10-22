@@ -1,10 +1,19 @@
+//5. ES6: Destructuring Arrays I
+
+const arr = [1, 2, 3, 4, 5, 6]
+let [ a, b ] = arr
+
+console.log(a) // outputs 1
+console.log(b) // outputs 2
+
+
 //4. Radian to Degree
 
-function toDegree(radian) {
-	return Math.ceil(radian * 180 / Math.PI)
-}
+// function toDegree(radian) {
+// 	return (radian/Math.PI) * 180
+// }
 
-console.log(toDegree(Math.PI/3))
+// console.log(toDegree(Math.PI/3))
 
 
 //.3 Upvotes vs Downvotes
