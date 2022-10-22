@@ -1,12 +1,23 @@
-//2. Minimal IV: if-else if-else Inferno
+//.3 Upvotes vs Downvotes
 
-function equilibrium(x) {
-	if (x > 0) return "positive"
-	if (x < 0) return "negative"
-	return true
+function getVoteCount(votes) {
+
+    return votes.upvotes - votes.downvotes
+    
 }
 
-console.log(equilibrium(0))
+console.log(getVoteCount({ upvotes: 13, downvotes: 0 }))
+
+
+//2. Minimal IV: if-else if-else Inferno
+
+// function equilibrium(x) {
+// 	if (x > 0) return "positive"
+// 	if (x < 0) return "negative"
+// 	return true
+// }
+
+// console.log(equilibrium(0))
 
 // function compare_to_100 (x) {
 //     if (x > 100) return "greater"
