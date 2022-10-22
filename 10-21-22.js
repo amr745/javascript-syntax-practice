@@ -1,12 +1,21 @@
-//.3 Upvotes vs Downvotes
+//4. Radian to Degree
 
-function getVoteCount(votes) {
-
-    return votes.upvotes - votes.downvotes
-    
+function toDegree(radian) {
+	return Math.ceil(radian * 180 / Math.PI)
 }
 
-console.log(getVoteCount({ upvotes: 13, downvotes: 0 }))
+console.log(toDegree(Math.PI/3))
+
+
+//.3 Upvotes vs Downvotes
+
+// function getVoteCount(votes) {
+
+//     return votes.upvotes - votes.downvotes
+
+// }
+
+// console.log(getVoteCount({ upvotes: 13, downvotes: 0 }))
 
 
 //2. Minimal IV: if-else if-else Inferno
