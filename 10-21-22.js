@@ -1,17 +1,35 @@
-//1. Fullname and Email
+//2. Minimal IV: if-else if-else Inferno
 
-class Employee {
-	constructor (firstname, lastname) {
-		this.firstname = firstname
-		this.lastname = lastname
-        this.fullname = this.firstname + " " + this.lastname
-        this.email = (this.firstname + "." + this.lastname + "@company.com").toLowerCase()
-		// Complete the code!
-	}
+function equilibrium(x) {
+	if (x > 0) return "positive"
+	if (x < 0) return "negative"
+	return true
 }
 
-let emp1 = new Employee("John", "Smith")
-let emp2 = new Employee("Mary",  "Sue")
-let emp3 = new Employee("Antony", "Walker")
+console.log(equilibrium(0))
 
-console.log(emp3.email)
+// function compare_to_100 (x) {
+//     if (x > 100) return "greater"
+//     if (x < 100) return "smaller"
+//     return "equal"
+// }
+
+// console.log(compare_to_100 (100))
+
+//1. Fullname and Email
+
+// class Employee {
+// 	constructor (firstname, lastname) {
+// 		this.firstname = firstname
+// 		this.lastname = lastname
+//         // Complete the code!
+//         this.fullname = `${this.firstname} ${this.lastname}`
+//         this.email = `${this.firstname}.${this.lastname}@company.com"`.toLowerCase()
+// 	}
+// }
+
+// let emp1 = new Employee("John", "Smith")
+// let emp2 = new Employee("Mary",  "Sue")
+// let emp3 = new Employee("Antony", "Walker")
+
+// console.log(emp3.email)
