@@ -1,16 +1,16 @@
 //7. Arrow Functions
 
-add2 = (x) => x + 2
+// add2 = (x) => x + 2
 
-add3 = (x) => x + 3
+// add3 = (x) => x + 3
 
-add5 = (x) => x + 5
+// add5 = (x) => x + 5
 
-add7 = (x) => x + 7
+// add7 = (x) => x + 7
 
-add11 = (x) => x + 11
+// add11 = (x) => x + 11
 
-console.log(add5(2))
+// console.log(add5(2))
 
 
 //6. Recursion: Length of a String
