@@ -8,8 +8,16 @@
 
 //2. Century Crisis
 
-function futurePeople(population, n) {
-	return population + 360 * n
+// function futurePeople(population, n) {
+// 	return population + 360 * n
+// }
+
+// console.log(futurePeople(5240, 3))
+
+//3. Evaluate an Equation
+
+function eq(evaluate) {
+	return eval(evaluate)
 }
 
-console.log(futurePeople(5240, 3))
+console.log(eq("1+2"))
