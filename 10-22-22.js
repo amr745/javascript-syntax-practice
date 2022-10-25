@@ -40,8 +40,16 @@
 
 //5. Return the Last Element in an Array
 
-function getLastItem(arr) {
-	return arr[arr.length - 1]
-}
+// function getLastItem(arr) {
+// 	return arr[arr.length - 1]
+// }
 
-console.log(getLastItem([1, 2, 3, 1, 4, 5, 6, 1]))
+// console.log(getLastItem([1, 2, 3, 1, 4, 5, 6, 1]))
+
+// 6. On/Off Switches
+
+function posCom(num) {
+       return Math.pow(2, num)
+    }
+
+console.log(posCom(10))
