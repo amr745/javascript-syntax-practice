@@ -48,8 +48,16 @@
 
 // 6. On/Off Switches
 
-function posCom(num) {
-       return Math.pow(2, num)
-    }
+// function posCom(num) {
+//        return Math.pow(2, num)
+//     }
 
-console.log(posCom(10))
+// console.log(posCom(10))
+
+//7. Buggy Code
+
+function has_bugs(buggy_code) {
+	return buggy_code ? "sad days" : "it's a good day"
+}
+
+console.log(has_bugs(false))
