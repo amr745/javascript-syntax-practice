@@ -24,8 +24,16 @@
 
 //3. Using Ternary Operators
 
-function yeah_nope(bool) {
-	return bool ? "yeah" : "nope"
+// function yeah_nope(bool) {
+// 	return bool ? "yeah" : "nope"
+// }
+
+// console.log(yeah_nope(false))
+
+//4. Is the String Odd or Even?
+
+function oddOrEven(s) {
+	return s.length % 2 === 0 ? true : false 
 }
 
-console.log(yeah_nope(false))
+console.log(oddOrEven("pears"))
