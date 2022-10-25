@@ -16,8 +16,16 @@
 
 //3. Evaluate an Equation
 
-function eq(evaluate) {
-	return eval(evaluate)
+// function eq(evaluate) {
+// 	return eval(evaluate)
+// }
+
+// console.log(eq("1+2"))
+
+//3. Using Ternary Operators
+
+function yeah_nope(bool) {
+	return bool ? "yeah" : "nope"
 }
 
-console.log(eq("1+2"))
+console.log(yeah_nope(false))
