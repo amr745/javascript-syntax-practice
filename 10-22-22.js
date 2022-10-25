@@ -32,8 +32,16 @@
 
 //4. Is the String Odd or Even?
 
-function oddOrEven(s) {
-	return s.length % 2 === 0 ? true : false 
+// function oddOrEven(s) {
+// 	return s.length % 2 === 0
+// }
+
+// console.log(oddOrEven("pears"))
+
+//5. Return the Last Element in an Array
+
+function getLastItem(arr) {
+	return arr[arr.length - 1]
 }
 
-console.log(oddOrEven("pears"))
+console.log(getLastItem([1, 2, 3, 1, 4, 5, 6, 1]))
