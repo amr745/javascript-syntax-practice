@@ -25,9 +25,16 @@
 
 //4. Flip the Boolean
 
-function flipBool(b) {
-	// return b === true || b === 1 ? 0 : 1
-    return b ? 0 : 1
+// function flipBool(b) {
+//     return b ? 0 : 1
+// }
+
+// console.log(flipBool(0))
+
+//5. To the Power of _____
+
+function calculateExponent(num, exp) {
+	return Math.pow(num, exp)
 }
 
-console.log(flipBool(0))
+console.log(calculateExponent(3, 3))
