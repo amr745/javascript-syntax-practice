@@ -19,6 +19,14 @@
 
 //3. Name Greeting!
 
-const helloName = name => `Hello ${name}!`.toString()
+// const helloName = name => `Hello ${name}!`.toString()
 
-console.log(helloName("Tiffany"))
+// console.log(helloName("Tiffany"))
+
+//4. Radians to Degrees
+
+function radiansToDegrees(rad) {
+	return rad * 180/Math.PI
+}
+
+console.log(radiansToDegrees(50))
