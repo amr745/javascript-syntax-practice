@@ -25,8 +25,14 @@
 
 //4. Radians to Degrees
 
-function radiansToDegrees(rad) {
-	return rad * 180/Math.PI
-}
+// function radiansToDegrees(rad) {
+// 	return rad * 180/Math.PI
+// }
 
-console.log(radiansToDegrees(50))
+// console.log(radiansToDegrees(50))
+
+//5. Concatenating Two Integer Arrays
+
+let concat = (arr1, arr2) => [...arr1,...arr2]
+
+console.log(concat([1, 3, 5], [2, 6, 8]))
