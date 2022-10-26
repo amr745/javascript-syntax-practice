@@ -11,8 +11,14 @@
 
 //2. Stack the Boxes
 
-function stackBoxes(n) {
-	return Math.pow(n, 2)
-}
+// function stackBoxes(n) {
+// 	return Math.pow(n, 2)
+// }
 
-console.log(stackBoxes(4))
+// console.log(stackBoxes(4))
+
+//3. Name Greeting!
+
+const helloName = name => `Hello ${name}!`.toString()
+
+console.log(helloName("Tiffany"))
