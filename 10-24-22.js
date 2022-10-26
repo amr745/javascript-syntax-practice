@@ -39,8 +39,16 @@
 
 //6. Fix the Error: Check Whether a Given Number Is Odd
 
-function isOdd(num) {
-	return num % 2 !== 0;
+// function isOdd(num) {
+// 	return num % 2 !== 0;
+// }
+
+// console.log(isOdd(-5))
+
+//7. Find the Index
+
+function findIndex(arr, str) {
+	return arr.indexOf(str)
 }
 
-console.log(isOdd(-5))
+console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple"))
