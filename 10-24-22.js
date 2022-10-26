@@ -33,6 +33,14 @@
 
 //5. Concatenating Two Integer Arrays
 
-let concat = (arr1, arr2) => [...arr1,...arr2]
+// let concat = (arr1, arr2) => [...arr1,...arr2]
 
-console.log(concat([1, 3, 5], [2, 6, 8]))
+// console.log(concat([1, 3, 5], [2, 6, 8]))
+
+//6. Fix the Error: Check Whether a Given Number Is Odd
+
+function isOdd(num) {
+	return num % 2 !== 0;
+}
+
+console.log(isOdd(-5))
