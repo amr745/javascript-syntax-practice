@@ -17,8 +17,17 @@
 
 //3. Inches to Feet
 
-function inchesToFeet(inches) {
-	return Math.floor(inches / 12)
+// function inchesToFeet(inches) {
+// 	return Math.floor(inches / 12)
+// }
+
+// console.log(inchesToFeet(0.5))
+
+//4. Flip the Boolean
+
+function flipBool(b) {
+	// return b === true || b === 1 ? 0 : 1
+    return b ? 0 : 1
 }
 
-console.log(inchesToFeet(0.5))
+console.log(flipBool(0))
