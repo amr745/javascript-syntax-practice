@@ -33,8 +33,24 @@
 
 //5. To the Power of _____
 
-function calculateExponent(num, exp) {
-	return Math.pow(num, exp)
+// function calculateExponent(num, exp) {
+// 	return Math.pow(num, exp)
+// }
+
+// console.log(calculateExponent(3, 3))
+
+//6. String and Number Conversions
+
+function intToString(num) {
+	// return num.toString()
+    // return `${num}`
+    return String(num)
 }
 
-console.log(calculateExponent(3, 3))
+
+function stringToInt(num) {
+	// return parseInt(num)
+    return Number(num)
+}
+
+console.log(intToString(4))
