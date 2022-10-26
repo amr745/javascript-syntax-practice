@@ -41,15 +41,27 @@
 
 //6. String and Number Conversions
 
+// function intToString(num) {
+// 	// return num.toString()
+//     // return `${num}`
+//     return String(num)
+// }
+
+
+// function stringToInt(num) {
+// 	// return parseInt(num)
+//     return Number(num)
+// }
+
+// console.log(intToString(4))
+
+//7. String and Number Conversions
+
 function intToString(num) {
-	// return num.toString()
-    // return `${num}`
     return String(num)
 }
 
-
 function stringToInt(num) {
-	// return parseInt(num)
     return Number(num)
 }
 
