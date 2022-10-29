@@ -8,8 +8,16 @@
 
 //2. Array Indexing
 
-function valueAt(arr, i) {
-	return arr[Math.floor(i)]
+// function valueAt(arr, i) {
+// 	return arr[Math.floor(i)]
+// }
+
+// console.log(valueAt([1, 2, 3, 4], 6.535355314 / 2))
+
+//3. Find Out the Leap Year
+
+function leapYear(year) {
+	return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0
 }
 
-console.log(valueAt([1, 2, 3, 4], 6.535355314 / 2))
+console.log(leapYear(2020))
