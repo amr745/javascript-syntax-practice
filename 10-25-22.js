@@ -16,8 +16,18 @@
 
 //3. Find Out the Leap Year
 
-function leapYear(year) {
-	return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0
+// function leapYear(year) {
+// 	return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0
+// }
+
+// console.log(leapYear(2020))
+
+//4. Triangle and Parallelogram Area Finder
+
+function areaShape(base, height, shape) {
+    return shape === "triangle" ? 0.5 * base * height : base * height
 }
 
-console.log(leapYear(2020))
+console.log(areaShape(2, 3, "triangle"))
+console.log(areaShape(8, 6, "parallelogram"))
+console.log(areaShape(2.9, 1.3, "parallelogram"))
