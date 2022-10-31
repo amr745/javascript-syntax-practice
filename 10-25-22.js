@@ -24,10 +24,20 @@
 
 //4. Triangle and Parallelogram Area Finder
 
-function areaShape(base, height, shape) {
-    return shape === "triangle" ? 0.5 * base * height : base * height
+// function areaShape(base, height, shape) {
+//     return shape === "triangle" ? 0.5 * base * height : base * height
+// }
+
+// console.log(areaShape(2, 3, "triangle"))
+// console.log(areaShape(8, 6, "parallelogram"))
+// console.log(areaShape(2.9, 1.3, "parallelogram"))
+
+// 5. Find the Index (Part #2)
+
+function search(arr, item) {
+	return arr.indexOf(item)
 }
 
-console.log(areaShape(2, 3, "triangle"))
-console.log(areaShape(8, 6, "parallelogram"))
-console.log(areaShape(2.9, 1.3, "parallelogram"))
+console.log(search([1, 2, 3, 4], 3))
+console.log(search([2, 4, 6, 8, 10], 8))
+console.log(search([1, 3, 5, 7, 9], 11))
