@@ -34,10 +34,24 @@
 
 // 5. Find the Index (Part #2)
 
-function search(arr, item) {
-	return arr.indexOf(item)
+// function search(arr, item) {
+// 	return arr.indexOf(item)
+// }
+
+// console.log(search([1, 2, 3, 4], 3))
+// console.log(search([2, 4, 6, 8, 10], 8))
+// console.log(search([1, 3, 5, 7, 9], 11))
+
+//6. 
+
+function sumArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]
+    } 
+    return sumBuggy Code (Part 3)
 }
 
-console.log(search([1, 2, 3, 4], 3))
-console.log(search([2, 4, 6, 8, 10], 8))
-console.log(search([1, 3, 5, 7, 9], 11))
+console.log(sumArray([1, 2, 3, 4, 5]))
+console.log(sumArray([-1, 0, 1]))
+console.log(sumArray([0, 4, 8, 12]))
