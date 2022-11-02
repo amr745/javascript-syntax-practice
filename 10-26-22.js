@@ -23,10 +23,21 @@
 
 //2. Many Operators!
 
-function operate(num1, num2, operator) {
-	return eval(num1 + operator + num2)
+// function operate(num1, num2, operator) {
+// 	return eval(num1 + operator + num2)
+// }
+
+// console.log(operate(1, 2, "+"))
+// console.log(operate(7, 10, "-"))
+// console.log(operate(20, 10, "%"))
+
+//3. Check if an Array Contains a Given Number
+
+function check(arr, el) {
+	return arr.includes(el)
 }
 
-console.log(operate(1, 2, "+"))
-console.log(operate(7, 10, "-"))
-console.log(operate(20, 10, "%"))
+console.log(check([1, 2, 3, 4, 5], 3))
+console.log(check([1, 1, 2, 1, 1], 3))
+console.log(check([5, 5, 5, 6], 5))
+console.log(check([], 5))
