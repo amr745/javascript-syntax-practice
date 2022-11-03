@@ -72,10 +72,20 @@
 
 //6. Circle or Square
 
-function circle_or_square(rad, area){
-    return 2 * Math.PI * rad > Math.sqrt(area) * 4
+// function circle_or_square(rad, area){
+//     return 2 * Math.PI * rad > Math.sqrt(area) * 4
+// }
+
+// console.log(circle_or_square(16, 625))
+// console.log(circle_or_square(5, 100))
+// console.log(circle_or_square(8, 144))
+
+//7. Front 3 - Slice Check Repeat Concatenate
+
+function frontThree(str) {
+    return (str.slice(0, 3)).repeat(3)
 }
 
-console.log(circle_or_square(16, 625))
-console.log(circle_or_square(5, 100))
-console.log(circle_or_square(8, 144))
+console.log(frontThree("Python"))
+console.log(frontThree("Cucumber"))
+console.log(frontThree("bioshock"))
