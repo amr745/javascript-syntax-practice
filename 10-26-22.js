@@ -58,14 +58,24 @@
 
 //5. Additive Inverse
 
-function additiveInverse(arr) {
-	neg = []
-    for (let i = 0; i < arr.length; i++) {
-        neg.push(-arr[i])
-    }
-    return neg
+// function additiveInverse(arr) {
+// 	neg = []
+//     for (let i = 0; i < arr.length; i++) {
+//         neg.push(-arr[i])
+//     }
+//     return neg
+// }
+
+// console.log(additiveInverse([5, -7, 8, 3]))
+// console.log(additiveInverse([1, 1, 1, 1, 1]))
+// console.log(additiveInverse([-5, -25, 35]))
+
+//6. Circle or Square
+
+function circle_or_square(rad, area){
+    return 2 * Math.PI * rad > Math.sqrt(area) * 4
 }
 
-console.log(additiveInverse([5, -7, 8, 3]))
-console.log(additiveInverse([1, 1, 1, 1, 1]))
-console.log(additiveInverse([-5, -25, 35]))
+console.log(circle_or_square(16, 625))
+console.log(circle_or_square(5, 100))
+console.log(circle_or_square(8, 144))
