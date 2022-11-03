@@ -83,7 +83,7 @@
 //7. Front 3 - Slice Check Repeat Concatenate
 
 function frontThree(str) {
-    return (str.slice(0, 3)).repeat(3)
+    return str.slice(0, 3).repeat(3)
 }
 
 console.log(frontThree("Python"))
