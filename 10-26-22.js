@@ -44,14 +44,28 @@
 
 //4. Return Types
 
-function arrayValuesTypes(arr) {
-    Array = []
+// function arrayValuesTypes(arr) {
+//     Array = []
+//     for (let i = 0; i < arr.length; i++) {
+//         Array.push(typeof arr[i])
+//     }
+//     return Array
+// }
+
+// console.log(arrayValuesTypes([1, 2, "null", []]))
+// console.log(arrayValuesTypes(["214", true, false, 2, 2.15, [], null]))
+// console.log(arrayValuesTypes([21.1, "float", "array", ["I am array"], null, true, 214]))
+
+//5. Additive Inverse
+
+function additiveInverse(arr) {
+	neg = []
     for (let i = 0; i < arr.length; i++) {
-        Array.push(typeof arr[i])
+        neg.push(-arr[i])
     }
-    return Array
+    return neg
 }
 
-console.log(arrayValuesTypes([1, 2, "null", []]))
-console.log(arrayValuesTypes(["214", true, false, 2, 2.15, [], null]))
-console.log(arrayValuesTypes([21.1, "float", "array", ["I am array"], null, true, 214]))
+console.log(additiveInverse([5, -7, 8, 3]))
+console.log(additiveInverse([1, 1, 1, 1, 1]))
+console.log(additiveInverse([-5, -25, 35]))
