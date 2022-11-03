@@ -33,11 +33,25 @@
 
 //3. Check if an Array Contains a Given Number
 
-function check(arr, el) {
-	return arr.includes(el)
+// function check(arr, el) {
+// 	return arr.includes(el)
+// }
+
+// console.log(check([1, 2, 3, 4, 5], 3))
+// console.log(check([1, 1, 2, 1, 1], 3))
+// console.log(check([5, 5, 5, 6], 5))
+// console.log(check([], 5))
+
+//4. Return Types
+
+function arrayValuesTypes(arr) {
+    Array = []
+    for (let i = 0; i < arr.length; i++) {
+        Array.push(typeof arr[i])
+    }
+    return Array
 }
 
-console.log(check([1, 2, 3, 4, 5], 3))
-console.log(check([1, 1, 2, 1, 1], 3))
-console.log(check([5, 5, 5, 6], 5))
-console.log(check([], 5))
+console.log(arrayValuesTypes([1, 2, "null", []]))
+console.log(arrayValuesTypes(["214", true, false, 2, 2.15, [], null]))
+console.log(arrayValuesTypes([21.1, "float", "array", ["I am array"], null, true, 214]))
