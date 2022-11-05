@@ -10,16 +10,26 @@
 
 //2. Burglary Series (19): Prevent Changes
 
-function preventChanges(obj) {
-    // write your code here
-    Object.freeze(obj)
-      // don't use a return statement
+// function preventChanges(obj) {
+//     // write your code here
+//     Object.freeze(obj)
+//       // don't use a return statement
       
       
-    // DON'T CHANGE OR REMOVE THE LINES BELOW
-    obj.noChanges = false;
-    obj.signature = "whatever";
-    return obj;
-  }
+//     // DON'T CHANGE OR REMOVE THE LINES BELOW
+//     obj.noChanges = false;
+//     obj.signature = "whatever";
+//     return obj;
+//   }
 
-  console.log(preventChanges({ noChanges: true }))
+//   console.log(preventChanges({ noChanges: true }))
+
+//3. Convert an Array to a String
+
+function arrayToString(arr) {
+	return arr.join("")
+}
+
+console.log(arrayToString([1, 2, 3, 4, 5, 6]))
+console.log(arrayToString(["a", "b", "c", "d", "e", "f"]))
+console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]))
