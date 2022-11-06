@@ -26,10 +26,20 @@
 
 //3. Convert an Array to a String
 
-function arrayToString(arr) {
-	return arr.join("")
+// function arrayToString(arr) {
+// 	return arr.join("")
+// }
+
+// console.log(arrayToString([1, 2, 3, 4, 5, 6]))
+// console.log(arrayToString(["a", "b", "c", "d", "e", "f"]))
+// console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]))
+
+//4. Volume of a Box
+
+function volumeOfBox(sizes) {
+	return sizes.length * sizes.width * sizes.height
 }
 
-console.log(arrayToString([1, 2, 3, 4, 5, 6]))
-console.log(arrayToString(["a", "b", "c", "d", "e", "f"]))
-console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]))
+console.log(volumeOfBox({ width: 2, length: 5, height: 1 }))
+console.log(volumeOfBox({ width: 4, length: 2, height: 2 }))
+console.log(volumeOfBox({ width: 2, length: 3, height: 5 }))
