@@ -46,10 +46,33 @@
 
 //5. Number of Stickers
 
-function howManyStickers(n) {
-	return n * n * 6
-}
+// function howManyStickers(n) {
+// 	return n * n * 6
+// }
 
-console.log(howManyStickers(1))
-console.log(howManyStickers(2) )
-console.log(howManyStickers(3))
+// console.log(howManyStickers(1))
+// console.log(howManyStickers(2) )
+// console.log(howManyStickers(3))
+
+// 6.) Minimal VI: Ternary Operator
+
+function areTrue(a, b) {
+	// if (a == true) {
+	// 	if (b == true) {
+	// 		return "both";
+	// 	}
+	// 	else {
+	// 		return "first";
+	// 	}
+	// }
+	// else if (b == true) {
+	// 	return "second";
+	// }
+	// else {
+	// 	return "neither";
+	// }
+	return a && b ? "both" : a ? "first" : b ? "second" : "neither"
+}
+console.log(areTrue(1 + 1 === 100, 3+2 === 100))
+// console.log(areTrue(a, b))
+// console.log(areTrue(a, b))
