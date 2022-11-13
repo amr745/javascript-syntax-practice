@@ -56,7 +56,7 @@
 
 // 6.) Minimal VI: Ternary Operator
 
-function areTrue(a, b) {
+// function areTrue(a, b) {
 	// if (a == true) {
 	// 	if (b == true) {
 	// 		return "both";
@@ -71,8 +71,21 @@ function areTrue(a, b) {
 	// else {
 	// 	return "neither";
 	// }
-	return a && b ? "both" : a ? "first" : b ? "second" : "neither"
+// 	return a && b ? "both" : a ? "first" : b ? "second" : "neither"
+// }
+// console.log(areTrue(1 + 1 === 100, 3+2 === 100))
+// console.log(areTrue(a, b))
+// console.log(areTrue(a, b))
+
+// 7. Check String for Spaces
+
+function hasSpaces(str) {
+	const there = str.search(/ /)
+	return there >= 0
 }
-console.log(areTrue(1 + 1 === 100, 3+2 === 100))
-// console.log(areTrue(a, b))
-// console.log(areTrue(a, b))
+
+console.log(hasSpaces("hello"))
+console.log(hasSpaces("hello, world"))
+console.log(hasSpaces(" "))
+console.log(hasSpaces(""))
+console.log(hasSpaces(",./!@#"))
