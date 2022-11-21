@@ -23,10 +23,24 @@
 
 // 3. Four Passengers and a Driver
 
-function carsNeeded(n) {
-	return Math.ceil(n / 5)
+// function carsNeeded(n) {
+// 	return Math.ceil(n / 5)
+// }
+
+// console.log(carsNeeded(5))
+// console.log(carsNeeded(11))
+// console.log(carsNeeded(0))
+
+// 4. 50-30-20 Strategy
+
+function fiftyThirtyTwenty(ati) {
+	return {
+        "Needs" : ati * .5,
+        "Wants" : ati * .3,
+        "Savings" : ati * .2
+    }
 }
 
-console.log(carsNeeded(5))
-console.log(carsNeeded(11))
-console.log(carsNeeded(0))
+console.log(fiftyThirtyTwenty(10000))
+console.log(fiftyThirtyTwenty(50000))
+console.log(fiftyThirtyTwenty(13450))
