@@ -47,10 +47,22 @@
 
 // 5. Kinetic Energy
 
-function kineticEnergy(m, v) {
-	return Math.round(1/2 * m * Math.pow(v, 2))
+// function kineticEnergy(m, v) {
+// 	return Math.round(1/2 * m * Math.pow(v, 2))
+// }
+
+// console.log(kineticEnergy(60, 3))
+// console.log(kineticEnergy(45, 10))
+// console.log(kineticEnergy(63.5, 7.35))
+
+// 6. Count the Arguments
+
+function numArgs() {
+	return arguments.length
 }
 
-console.log(kineticEnergy(60, 3))
-console.log(kineticEnergy(45, 10))
-console.log(kineticEnergy(63.5, 7.35))
+console.log(numArgs())
+console.log(numArgs("foo"))
+console.log(numArgs("foo", "bar"))
+console.log(numArgs(true, false))
+console.log(numArgs({}))
