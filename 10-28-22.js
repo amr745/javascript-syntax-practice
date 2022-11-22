@@ -33,14 +33,24 @@
 
 // 4. 50-30-20 Strategy
 
-function fiftyThirtyTwenty(ati) {
-	return {
-        "Needs" : ati * .5,
-        "Wants" : ati * .3,
-        "Savings" : ati * .2
-    }
+// function fiftyThirtyTwenty(ati) {
+// 	return {
+//         "Needs" : ati * .5,
+//         "Wants" : ati * .3,
+//         "Savings" : ati * .2
+//     }
+// }
+
+// console.log(fiftyThirtyTwenty(10000))
+// console.log(fiftyThirtyTwenty(50000))
+// console.log(fiftyThirtyTwenty(13450))
+
+// 5. Kinetic Energy
+
+function kineticEnergy(m, v) {
+	return Math.round(1/2 * m * Math.pow(v, 2))
 }
 
-console.log(fiftyThirtyTwenty(10000))
-console.log(fiftyThirtyTwenty(50000))
-console.log(fiftyThirtyTwenty(13450))
+console.log(kineticEnergy(60, 3))
+console.log(kineticEnergy(45, 10))
+console.log(kineticEnergy(63.5, 7.35))
