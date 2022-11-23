@@ -57,12 +57,22 @@
 
 // 6. Count the Arguments
 
-function numArgs() {
-	return arguments.length
+// function numArgs() {
+// 	return arguments.length
+// }
+
+// console.log(numArgs())
+// console.log(numArgs("foo"))
+// console.log(numArgs("foo", "bar"))
+// console.log(numArgs(true, false))
+// console.log(numArgs({}))
+
+// 7. Repeat String
+
+function repeatString(txt, n) {
+	return typeof txt === 'string' ? txt.repeat(n) : "Not A String !!"
 }
 
-console.log(numArgs())
-console.log(numArgs("foo"))
-console.log(numArgs("foo", "bar"))
-console.log(numArgs(true, false))
-console.log(numArgs({}))
+console.log(repeatString("Mubashir", 2))
+console.log(repeatString("Matt", 3))
+console.log(repeatString(1990, 7))
