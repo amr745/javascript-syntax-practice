@@ -69,10 +69,10 @@
 
 // 7. Repeat String
 
-function repeatString(txt, n) {
-	return typeof txt === 'string' ? txt.repeat(n) : "Not A String !!"
-}
+// function repeatString(txt, n) {
+// 	return typeof txt === 'string' ? txt.repeat(n) : "Not A String !!"
+// }
 
-console.log(repeatString("Mubashir", 2))
-console.log(repeatString("Matt", 3))
-console.log(repeatString(1990, 7))
+// console.log(repeatString("Mubashir", 2))
+// console.log(repeatString("Matt", 3))
+// console.log(repeatString(1990, 7))
