@@ -11,8 +11,18 @@
 
 // 2. Minimal II: Boolean Redundancy
 
-function parity(n) {
-	return n % 2 === 0 ? "even" : "odd"
+// function parity(n) {
+// 	return n % 2 === 0 ? "even" : "odd"
+// }
+
+// console.log(parity(16))
+
+// 3. Nth Star Number
+
+function starNumber(n) {
+	return 6 * n * (n-1) + 1
 }
 
-console.log(parity(16))
+console.log(starNumber(2))
+console.log(starNumber(3))
+console.log(starNumber(5))
