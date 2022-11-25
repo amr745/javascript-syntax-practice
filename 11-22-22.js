@@ -19,10 +19,29 @@
 
 // 3. Nth Star Number
 
-function starNumber(n) {
-	return 6 * n * (n-1) + 1
+// function starNumber(n) {
+// 	return 6 * n * (n-1) + 1
+// }
+
+// console.log(starNumber(2))
+// console.log(starNumber(3))
+// console.log(starNumber(5))
+
+// 4. Convert All Array Items to String
+
+// function parseArray(arr) {
+//   let the = []
+// 	for (let i = 0; i < arr.length; i++) {
+//     the.push(arr[i].toString())
+//   }
+//   return the
+// }
+
+function parseArray(arr) {
+  return arr.map(String)
 }
 
-console.log(starNumber(2))
-console.log(starNumber(3))
-console.log(starNumber(5))
+console.log(parseArray([1, 2, "a", "b"]))
+console.log(parseArray(["abc", 123, "def", 456]))
+console.log(parseArray([1, 2, 3, 17, 24, 3, "a", "123b"]))
+console.log(parseArray([]))
