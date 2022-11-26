@@ -40,16 +40,32 @@
 
 // 5. Repeating Letters
 
-function doubleChar(str) {
-  let arr = []
-	for (i=0; i < str.length; i++) {
-    let two = str[i] + str[i]
-    arr.push(two)
-  }
-  return  arr.toString().replace(/,/g, '')
+// function doubleChar(str) {
+//   let arr = []
+// 	for (i=0; i < str.length; i++) {
+//     let two = str[i] + str[i]
+//     arr.push(two)
+//   }
+//   return  arr.toString().replace(/,/g, '')
+// }
+
+// console.log(doubleChar("String"))
+// console.log(doubleChar("Hello World!"))
+// console.log(doubleChar("1234!_ "))
+
+// 6. Extract City Facts
+
+function cityFacts(city) {
+	return city.name + " has a population of " + city.population + " and is situated in " + city.continent
 }
 
-console.log(doubleChar("String"))
-console.log(doubleChar("Hello World!"))
-console.log(doubleChar("1234!_ "))
-
+console.log(cityFacts({
+  name: "Paris",
+  population: "2,140,526",
+  continent: "Europe"
+}))
+console.log(cityFacts({
+  name: "Tokyo",
+  population: "13,929,286",
+  continent: "Asia"
+}))
