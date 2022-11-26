@@ -40,17 +40,16 @@
 
 // 5. Repeating Letters
 
-// function doubleChar(str) {
-//   let arr = []
-// 	for (i=0; i < str.length; i++) {
-//     let two = str[i] + str[i]
-//     arr.push(two)
-//   }
-//   return  arr.toString().replaceAll(',', '')
-// }
+function doubleChar(str) {
+  let arr = []
+	for (i=0; i < str.length; i++) {
+    let two = str[i] + str[i]
+    arr.push(two)
+  }
+  return  arr.toString().replace(/,/g, '')
+}
 
-// console.log(doubleChar("String"))
-// console.log(doubleChar("Hello World!"))
-// console.log(doubleChar("1234!_ "))
+console.log(doubleChar("String"))
+console.log(doubleChar("Hello World!"))
+console.log(doubleChar("1234!_ "))
 
-// 6.
