@@ -21,16 +21,34 @@
 
 // 3. Luke, I Am Your ...
 
-function relationToLuke(name) {
-	let relationship = {
-        "Darth Vader" : "father",
-        "Leia" : "sister",
-        "Han" : "brother in law",
-        "R2D2" : "droid"
-        } 
-    return "Luke, I am your " + relationship[name] + "."
-}
+// function relationToLuke(name) {
+// 	let relationship = {
+//         "Darth Vader" : "father",
+//         "Leia" : "sister",
+//         "Han" : "brother in law",
+//         "R2D2" : "droid"
+//         } 
+//     return "Luke, I am your " + relationship[name] + "."
+// }
 
-console.log(relationToLuke("Darth Vader"))
-console.log(relationToLuke("Leia"))
-console.log(relationToLuke("Han"))
+// console.log(relationToLuke("Darth Vader"))
+// console.log(relationToLuke("Leia"))
+// console.log(relationToLuke("Han"))
+
+// 4. Similar Bread
+
+function hasSameBread(arr1, arr2) {
+	return arr1[0] === arr2[0] && arr1[2] === arr2[2]
+}
+console.log(hasSameBread(
+    ["white bread", "lettuce", "white bread"],
+    ["white bread", "tomato", "white bread"]
+  ))
+console.log(hasSameBread(
+    ["brown bread", "chicken", "brown bread"],
+    ["white bread", "chicken", "white bread"]
+  ))
+console.log(hasSameBread(
+    ["toast", "cheese", "toast"],
+    ["brown bread", "cheese", "toast"]
+  ))
