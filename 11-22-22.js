@@ -55,17 +55,30 @@
 
 // 6. Extract City Facts
 
-function cityFacts(city) {
-	return city.name + " has a population of " + city.population + " and is situated in " + city.continent
+// function cityFacts(city) {
+// 	return city.name + " has a population of " + city.population + " and is situated in " + city.continent
+// }
+
+// console.log(cityFacts({
+//   name: "Paris",
+//   population: "2,140,526",
+//   continent: "Europe"
+// }))
+// console.log(cityFacts({
+//   name: "Tokyo",
+//   population: "13,929,286",
+//   continent: "Asia"
+// }))
+
+// 7. Return the Total Number of Parameters
+
+function numberArgs(...total) {
+  x = 0
+  y = 0
+  return total.length
 }
 
-console.log(cityFacts({
-  name: "Paris",
-  population: "2,140,526",
-  continent: "Europe"
-}))
-console.log(cityFacts({
-  name: "Tokyo",
-  population: "13,929,286",
-  continent: "Asia"
-}))
+console.log(numberArgs("a", "b", "c"))
+console.log(numberArgs(10, 20, 30, 40, 50))
+console.log(numberArgs(x, y))
+console.log(numberArgs())
