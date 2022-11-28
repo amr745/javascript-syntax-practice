@@ -66,15 +66,25 @@
 
 // 6. Numbers to Arrays and Vice Versa
 
-function toArray(num) {
-	return Array.from(String(num), Number)
+// function toArray(num) {
+// 	return Array.from(String(num), Number)
+// }
+
+// function toNumber(arr) {
+//     return Number(arr.join(''))
+// }
+
+// console.log(toArray(235))
+// console.log(toArray(0))
+// console.log(toNumber([2, 3, 5]))
+// console.log(toNumber([0]))
+
+// 7. Stuttering Function
+
+function stutter(word) {
+	return word[0] + word[1] + "... " + word[0] + word[1] + "... " + word + "?"
 }
 
-function toNumber(arr) {
-    return Number(arr.join(''))
-}
-
-console.log(toArray(235))
-console.log(toArray(0))
-console.log(toNumber([2, 3, 5]))
-console.log(toNumber([0]))
+console.log(stutter("incredible"))
+console.log(stutter("enthusiastic"))
+console.log(stutter("outstanding"))
