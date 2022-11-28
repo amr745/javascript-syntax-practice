@@ -55,11 +55,26 @@
 
 // 5. Is the Word Singular or Plural?
 
-function isPlural(word) {
-	return word[word.length - 1] === "s"
+// function isPlural(word) {
+// 	return word.endsWith("s")
+// }
+
+// console.log(isPlural("changes"))
+// console.log(isPlural("change"))
+// console.log(isPlural("dudes"))
+// console.log(isPlural("magic"))
+
+// 6. Numbers to Arrays and Vice Versa
+
+function toArray(num) {
+	return Array.from(String(num), Number)
 }
 
-console.log(isPlural("changes"))
-console.log(isPlural("change"))
-console.log(isPlural("dudes"))
-console.log(isPlural("magic"))
+function toNumber(arr) {
+    return Number(arr.join(''))
+}
+
+console.log(toArray(235))
+console.log(toArray(0))
+console.log(toNumber([2, 3, 5]))
+console.log(toNumber([0]))
