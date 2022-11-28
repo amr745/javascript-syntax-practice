@@ -37,18 +37,29 @@
 
 // 4. Similar Bread
 
-function hasSameBread(arr1, arr2) {
-	return arr1[0] === arr2[0] && arr1[2] === arr2[2]
+// function hasSameBread(arr1, arr2) {
+// 	return arr1[0] === arr2[0] && arr1[2] === arr2[2]
+// }
+// console.log(hasSameBread(
+//     ["white bread", "lettuce", "white bread"],
+//     ["white bread", "tomato", "white bread"]
+//   ))
+// console.log(hasSameBread(
+//     ["brown bread", "chicken", "brown bread"],
+//     ["white bread", "chicken", "white bread"]
+//   ))
+// console.log(hasSameBread(
+//     ["toast", "cheese", "toast"],
+//     ["brown bread", "cheese", "toast"]
+//   ))
+
+// 5. Is the Word Singular or Plural?
+
+function isPlural(word) {
+	return word[word.length - 1] === "s"
 }
-console.log(hasSameBread(
-    ["white bread", "lettuce", "white bread"],
-    ["white bread", "tomato", "white bread"]
-  ))
-console.log(hasSameBread(
-    ["brown bread", "chicken", "brown bread"],
-    ["white bread", "chicken", "white bread"]
-  ))
-console.log(hasSameBread(
-    ["toast", "cheese", "toast"],
-    ["brown bread", "cheese", "toast"]
-  ))
+
+console.log(isPlural("changes"))
+console.log(isPlural("change"))
+console.log(isPlural("dudes"))
+console.log(isPlural("magic"))
