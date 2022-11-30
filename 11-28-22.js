@@ -12,22 +12,32 @@
 
 // 2. Amazing Edabit!
 
-function amazingEdabit(str) {
-	return str.includes("edabit") ? str : str.replace("amazing", "not amazing")
-}
+// function amazingEdabit(str) {
+// 	return str.includes("edabit") ? str : str.replace("amazing", "not amazing")
+// }
 
-console.log(amazingEdabit("edabit is amazing."))
-console.log(amazingEdabit("Mubashir is amazing."))
-console.log(amazingEdabit("Infinity is amazing."))
+// console.log(amazingEdabit("edabit is amazing."))
+// console.log(amazingEdabit("Mubashir is amazing."))
+// console.log(amazingEdabit("Infinity is amazing."))
 
 // 3. Slice of Pie
 
-function equalSlices(total, people, each) {
-	return people * each <= total
+// function equalSlices(total, people, each) {
+// 	return people * each <= total
+// }
+
+// console.log(equalSlices(11, 5, 2))
+// console.log(equalSlices(11, 5, 3))
+// console.log(equalSlices(8, 3, 2))
+// console.log(equalSlices(8, 3, 3))
+// console.log(equalSlices(24, 12, 2))
+
+// 4. Is the Number Even or Odd?
+
+function isEvenOrOdd(num) {
+	return num % 2 === 0 ? "even" : "odd"
 }
 
-console.log(equalSlices(11, 5, 2))
-console.log(equalSlices(11, 5, 3))
-console.log(equalSlices(8, 3, 2))
-console.log(equalSlices(8, 3, 3))
-console.log(equalSlices(24, 12, 2))
+console.log(isEvenOrOdd(3))
+console.log(isEvenOrOdd(146))
+console.log(isEvenOrOdd(19))
