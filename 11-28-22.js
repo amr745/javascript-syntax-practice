@@ -60,10 +60,43 @@
 
 // 6. Find the Smallest and Biggest Numbers
 
-function minMax(arr) {
-    return [Math.min(...arr), Math.max(...arr)]
+// function minMax(arr) {
+//     return [Math.min(...arr), Math.max(...arr)]
+// }
+
+// console.log(minMax([1, 2, 3, 4, 5]))
+// console.log(minMax([2334454, 5]))
+// console.log(minMax([1]))
+
+// 7. Find the Bug: Returning the Container
+
+function getContainer(product) {
+	let container
+  switch (product) {
+		case "Bread":
+			container = "bag"
+            break
+		case "Beer":
+		case "Milk":
+			container = "bottle"
+			break
+		case "Cerials":
+			container = "box"
+			break
+		case "Eggs":
+			container = "carton"
+			break
+		case "Candy":
+			container = "plastic"
+            break
+		default:
+			container = null
+	}
+
+	return container
 }
 
-console.log(minMax([1, 2, 3, 4, 5]))
-console.log(minMax([2334454, 5]))
-console.log(minMax([1]))
+console.log(getContainer("Bread"))
+console.log(getContainer("Beer"))
+console.log(getContainer("Candy"))
+console.log(getContainer("Cheese"))
