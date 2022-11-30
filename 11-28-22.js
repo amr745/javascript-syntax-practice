@@ -44,16 +44,26 @@
 
 // 5. Calculate the Mean
 
-function mean(arr) {
-	let total = 0
+// function mean(arr) {
+// 	let total = 0
 
-    for (ar of arr) {
-        total += ar
-    }
+//     for (ar of arr) {
+//         total += ar
+//     }
 
-    return Number((total / arr.length).toFixed(2))
+//     return Number((total / arr.length).toFixed(2))
+// }
+
+// console.log(mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3]))
+// console.log(mean([2, 3, 2, 3]))
+// console.log(mean([3, 3, 3, 3, 3]))
+
+// 6. Find the Smallest and Biggest Numbers
+
+function minMax(arr) {
+    return [Math.min(...arr), Math.max(...arr)]
 }
 
-console.log(mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3]))
-console.log(mean([2, 3, 2, 3]))
-console.log(mean([3, 3, 3, 3, 3]))
+console.log(minMax([1, 2, 3, 4, 5]))
+console.log(minMax([2334454, 5]))
+console.log(minMax([1]))
