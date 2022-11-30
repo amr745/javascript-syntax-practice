@@ -34,10 +34,26 @@
 
 // 4. Is the Number Even or Odd?
 
-function isEvenOrOdd(num) {
-	return num % 2 === 0 ? "even" : "odd"
+// function isEvenOrOdd(num) {
+// 	return num % 2 === 0 ? "even" : "odd"
+// }
+
+// console.log(isEvenOrOdd(3))
+// console.log(isEvenOrOdd(146))
+// console.log(isEvenOrOdd(19))
+
+// 5. Calculate the Mean
+
+function mean(arr) {
+	let total = 0
+
+    for (ar of arr) {
+        total += ar
+    }
+
+    return Number((total / arr.length).toFixed(2))
 }
 
-console.log(isEvenOrOdd(3))
-console.log(isEvenOrOdd(146))
-console.log(isEvenOrOdd(19))
+console.log(mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3]))
+console.log(mean([2, 3, 2, 3]))
+console.log(mean([3, 3, 3, 3, 3]))
